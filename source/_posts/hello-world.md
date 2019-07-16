@@ -1,7 +1,7 @@
 ---
 title: hello world
-date: 2019-07-24 12:00 
-modified: 2019-07-24 12:00
+date: 2019-07-14 12:00 
+modified: 2019-07-14 12:00
 tag:
  - 测试
 
@@ -15,7 +15,6 @@ tag:
 
 # 这是 H1
 
-## 这是 H2
 
 ###### 这是 H6
 
@@ -30,7 +29,7 @@ npm install gulp
 表格:
 
 | Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
+| :-------------: |:-------------:| :-----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
