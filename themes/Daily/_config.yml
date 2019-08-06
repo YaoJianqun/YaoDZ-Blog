@@ -20,7 +20,7 @@ highlight:
 # nav #
 nav:
   "主页" : .
-  "日志" : archives
+  "归档" : archives
   "关于": about
   # rss: atom.xml
 
