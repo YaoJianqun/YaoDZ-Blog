@@ -5,7 +5,7 @@ tags:
  - 后台环境配置
 
 photos:
- - https://oss-yaodz-source.oss-cn-beijing.aliyuncs.com/Yaodz-Blog/js-1.jpg
+ - https://oss-yaodz-source.oss-cn-beijing.aliyuncs.com/Yaodz-Blog/system-1.jpg
 ---
 
 本文旨在说明JDK在Windows与Linux系统安装与配置，避免每次都需百度，反而容易踩坑报错。
