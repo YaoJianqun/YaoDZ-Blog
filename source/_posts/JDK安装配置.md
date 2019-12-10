@@ -5,7 +5,7 @@ tags:
  - 后台环境配置
 
 photos:
- - https://oss-yaodz-source.oss-cn-beijing.aliyuncs.com/Yaodz-Blog/js-1.jpg
+ - https://oss-yaodz-source.oss-cn-beijing.aliyuncs.com/Yaodz-Blog/system-1.jpg
 ---
 
 本文旨在说明JDK在Windows与Linux系统安装与配置，避免每次都需百度，反而容易踩坑报错。
@@ -22,16 +22,22 @@ photos:
 ### 环境变量配置
 
 **1.++WIN键 + Q++ 搜索 ++环境变量++ 并打开**
+
 {% img https://oss-yaodz-source.oss-cn-beijing.aliyuncs.com/Yaodz-Blog/JDK%E9%85%8D%E7%BD%AE/2019-12-10_093823.png %}
 
+<br/>
 
 **2.编辑用户环境变量**
+
 {% img https://oss-yaodz-source.oss-cn-beijing.aliyuncs.com/Yaodz-Blog/JDK%E9%85%8D%E7%BD%AE/2019-12-10_094055.png %}
 
+<br/>
 
 **3.新建`JAVA_HOME`变量 - 变量值为jdk安装目录**
+
 {% img https://oss-yaodz-source.oss-cn-beijing.aliyuncs.com/Yaodz-Blog/JDK%E9%85%8D%E7%BD%AE/2019-12-10_094315.png %}
 
+<br/>
 
 **4.编辑`Path`变量**
 
@@ -49,17 +55,24 @@ photos:
 ```
 **注 :** 如文本模式下，原Path变量结尾没有`;`号，需添加`;`号后写入以上代码。
 
+<br/>
 
 **5.新建`CLASSPATH`变量** 
+
 {% img https://oss-yaodz-source.oss-cn-beijing.aliyuncs.com/Yaodz-Blog/JDK%E9%85%8D%E7%BD%AE/2019-12-10_095716.png %}
+
 ```c
 .;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar
 ```
+
+
 **注 :** 注意变量值前的`.`号。
 
+<br/>
 
 **6.配置完毕后点击确认**
 
+<br/>
 
 **7.检验是否安装完毕**
 
@@ -85,6 +98,8 @@ photos:
 sudo rpm -ivh jdk-7u80-linux-x64.rpm
 ```
 
+<br/>
+
 ### 修改环境变量 : 
 
 ```shell
@@ -95,6 +110,8 @@ export JAVA_HOME=/usr/java/jdk1.7.0_80
 export CLASSPATH=.:$JAVA_HOME/jre/lib/rt.jar:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 export PATH=$PATH:$JAVA_HOME/bin
 ```
+
+<br/>
 
 ### 使配置文件生效
 
